@@ -1,0 +1,22 @@
+{
+  "name": "travisheightswiffleballleague",
+  "version": "1.0.0",
+  "description": "First attempt at league website",
+  "main": "index.html",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "i": "^0.3.6",
+    "liveserver": "^0.1.20",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Nick Fischer",
+  "license": "ISC"
+}
