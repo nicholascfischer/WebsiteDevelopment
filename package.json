@@ -15,7 +15,7 @@
   },
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node /public/server.js"
+    "start": "node server.js"
   },
   "author": "Nick Fischer",
   "license": "ISC"
