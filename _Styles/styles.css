@@ -136,9 +136,6 @@
 	display: none;
 }
 
-.navbar__menu__mobile {
-	display: none;
-}
 
 /*****************************************************************/
 /* Start Mobile Section */
@@ -156,10 +153,6 @@
 	}
 
 	.navbar__menu {
-		display: none;
-	}
-
-	.navbar__menu__mobile {
 		display: grid;
 		grid-template-columns: auto;
 		margin: 0;
@@ -173,7 +166,7 @@
 		background: #131313;
 	}
 
-	.navbar__menu__mobile.active {
+	.navbar__menu.active {
 		background: #131313;
 		/*background: #131313;*/
 		top: 100%;
@@ -197,13 +190,6 @@
 		background: #fff;
 	}
 
-	.navbar-item {
-		display: none;
-	}
-
-	.navbar__links {
-		display: none;
-	}
 
 	#mobile__menu {
 		position:  absolute;
@@ -212,16 +198,8 @@
 		transform: translate(5%, 20%);
 	}
 
-	.navbar__btn {
-		display: none;
-	}
 
-	.button {
-		display: none;
-	}
-
-
-	.navbar__menu__mobile {
+	.navbar__menu {
 		display:  grid;
 		grid-template-columns: auto;
 		margin: 0;
@@ -235,7 +213,7 @@
 		background: #131313;
 	}
 
-	.navbar__menu__mobile.active {
+	.navbar__menu.active {
 		background: #131313;
 		/*background: #131313;*/
 		top: 100%;
@@ -247,13 +225,13 @@
 
 	}
 
-	.navbar__item__mobile {
+	.navbar__item {
 		width: 100%;
 		text-decoration: none;
 		color:  #fff;
 	}
 
-	.navbar__links__mobile {
+	.navbar__links {
 		text-align: center;
 		padding: 2rem;
 		width: 100%;
@@ -267,7 +245,7 @@
 	}
 
 
-	.navbar__btn__mobile {
+	.navbar__btn {
 		padding-bottom: 2rem;
 		padding: 2rem;
 		width: 100%;
@@ -278,7 +256,7 @@
 		text-decoration: none;
 	}
 
-	.button__mobile {
+	.button{
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -295,12 +273,12 @@
 	}
 
 
-	.button__mobile:hover {
+	.button:hover {
 		background: #4837ff;
 		transition: all 0.3s ease;
 	}
 
-	.navbar__links__mobile:hover {
+	.navbar__links:hover {
 		background: #4837ff;
 		transition: all 0.3s ease;
 	}
