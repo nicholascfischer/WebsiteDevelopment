@@ -40,12 +40,12 @@
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
 	*/
+	width: 200px;
 	display: flex;
 	align-items: center;
 	cursor: point;
 	text-decoration: none;
 	font-size: 30px;
-*/
 	
 	
 }
@@ -136,7 +136,7 @@
 	display: none;
 }
 
-.navbar__menu__mobile {
+.navbar__menu {
 	display: none;
 }
 
@@ -156,10 +156,6 @@
 	}
 
 	.navbar__menu {
-		display: none;
-	}
-
-	.navbar__menu__mobile {
 		display: grid;
 		grid-template-columns: auto;
 		margin: 0;
@@ -173,7 +169,7 @@
 		background: #131313;
 	}
 
-	.navbar__menu__mobile.active {
+	.navbar__menu.active {
 		background: #131313;
 		/*background: #131313;*/
 		top: 100%;
