@@ -40,7 +40,7 @@
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
 	*/
-	width: 200px;
+	white-space: nowrap;
 	display: flex;
 	align-items: center;
 	cursor: point;
@@ -183,6 +183,7 @@
 
 	#navbar__logo {
 		padding-left: 25px;
+		white-space: nowrap;
 	}
 
 	.navbar__toggle .bar {
