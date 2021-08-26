@@ -136,13 +136,6 @@
 	display: none;
 }
 
-.body__background {
-	backround-image: url("../_Images/tree.png");
-	width:  80%;
-	justify-content: center;
-	opacity: 50%;
-}
-
 /*****************************************************************/
 /* Start Mobile Section */
 /*****************************************************************/

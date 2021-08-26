@@ -6,6 +6,11 @@ menu.addEventListener('click', function() {
 	menuLinks.classList.toggle('active')
 });
 
+menu.addEventListener('click', function() {
+	menu.classList.toggle('is-active')
+	menuLinks.classList.toggle('active')
+});
+
 
 
 
