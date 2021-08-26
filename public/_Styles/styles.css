@@ -136,6 +136,13 @@
 	display: none;
 }
 
+.body__background {
+	backround-image: url("../_Images/tree.png");
+	width:  80%;
+	justify-content: center;
+	opacity: 50%;
+}
+
 /*****************************************************************/
 /* Start Mobile Section */
 /*****************************************************************/
@@ -239,6 +246,21 @@
 		font-size:  2rem;
 
 	}
+	/*
+	.sign_up.active {
+  		width: 100px;
+  		height: 100px;
+  		background: red;
+  		transition: width 2s, height 2s, transform 2s;
+	}
+
+	sign-up:hover {
+  		width: 300px;
+  		height: 300px;
+  		transform: rotate(180deg);
+
+	}
+	*/
 
 	.navbar__item {
 		width: 100%;
