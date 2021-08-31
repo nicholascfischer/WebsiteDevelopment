@@ -141,6 +141,15 @@
     text-align: center;
 }
 
+.content-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 80%;
+	margin: 2vh;
+}
+
 .bg__image {
 	background-image: url("../_Images/tree.png");
 	justify-content: center;
@@ -376,7 +385,7 @@ input, textarea {
 
 }
 
-.aubmit {
+.submit {
 	border: 1px aolid #131313;
 	padding: 1rem;
 	text-align: center;
