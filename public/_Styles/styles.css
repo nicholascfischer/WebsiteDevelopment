@@ -150,11 +150,9 @@
     height: 70%;
     /* margin: 2vh 2vh 2vh 2vh; */
     margin: 25px;
-    /*background-color: #ffff;*/
+    background-color: #ffff;
 }
 
-
-}
 
 .bg__image {
 	background-image: url("../_Images/tree.png");
